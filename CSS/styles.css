@@ -121,8 +121,9 @@ body {
 video {
     text-align: center;
     width: auto;
-    height: auto;
     object-fit: fill;
+    height: 100vh; 
+    min-height: 100%;
 }
 
 @media only screen and (max-width: 500px) {
