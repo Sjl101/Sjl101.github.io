@@ -122,6 +122,7 @@ video {
     text-align: center;
     width: auto;
     height: auto;
+    object-fit: fill;
 }
 
 @media only screen and (max-width: 500px) {
