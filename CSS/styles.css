@@ -1,5 +1,6 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family: "Pyro";
+    /*font-family: 'Raleway', sans-serif; */
     margin: 0px;
     padding: 0px;
     background-image: url("../ASSETS/background.jpg");
@@ -184,6 +185,7 @@ video {
     opacity:0.5;
 }
 .minititle {
+    font-family: "Pyro";
     text-align: left;
     background: -webkit-linear-gradient(#3CEAE6,#3CEAE6,#E65A92,#0F080B,#0F080B);
     -webkit-background-clip: text;
@@ -280,3 +282,8 @@ video {
     text-align: left;
     margin: 37px 500px 0px 0px;
 }
+
+@font-face {
+    font-family: "Pyro";
+    src: url(../ASSETS/OS.otf) format("opentype");
+  }
