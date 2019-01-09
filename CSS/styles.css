@@ -278,17 +278,8 @@ video {
   .prev, .next,.text {font-size: 11px}
 }
 
-#youtubebutton {
-    text-align: left;
-    margin: 37px 500px 0px 0px;
-}
 
 @font-face {
     font-family: "Pyro";
     src: url(../ASSETS/OS.otf) format("opentype");
   }
-
-.g-ytsubscribe {
-    text-align: left;
-    margin: 37px 500px 0px 0px;
-}
