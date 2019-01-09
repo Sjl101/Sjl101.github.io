@@ -1,5 +1,6 @@
 body {
     font-family: "Pyro";
+    color: white;
     /*font-family: 'Raleway', sans-serif; */
     margin: 0px;
     padding: 0px;
@@ -10,10 +11,18 @@ body {
     background-size: cover;
 }
 
+#Shanetitle {
+    background: -webkit-linear-gradient(#3CEAE6,#3CEAE6,#E65A92,#0F080B,#0F080B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 8px 30px 1px 30px;
+    font-size: 70px;
+}
 #un {
     display:"none";
     text-align: left;
-    margin: 37px 20px 0px 0px;
+    margin: 37px 20px 0px 40px;
+    color: white;
 }
 #namebutton {
     text-align: left;
@@ -25,16 +34,22 @@ body {
 }
 
 .topnav {
-    background-color: rgb(255, 255, 255);
+    background-color: #232323;
     overflow: hidden;
     display: flex;
     flex-wrap: wrap;
 }
 
+.topnav-right {
+    float: right;
+  }
+
 .topnav a {
     margin: 18px;
     float: left;
-    color: #000000;
+    background: -webkit-linear-gradient(#3CEAE6,#3CEAE6,#E65A92,#0F080B,#0F080B);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -49,13 +64,6 @@ body {
 
 .topnav a.active {
     color: red;
-}
-
-.topnav li {
-    list-style-type: none;
-    margin: auto 0px auto 0px;
-    height: 25px;
-    border-right: 1px solid #C0C0C0
 }
 
 .topdiv{
