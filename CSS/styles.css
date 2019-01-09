@@ -275,3 +275,8 @@ video {
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+#youtubebutton {
+    text-align: left;
+    margin: 37px 500px 0px 0px;
+}
