@@ -45,6 +45,7 @@ body {
   }
 
 .topnav a {
+    float: right;
     margin: 18px;
     background: -webkit-linear-gradient(#3CEAE6,#3CEAE6,#E65A92,#0F080B,#0F080B);
     -webkit-background-clip: text;
