@@ -11,7 +11,7 @@
         <script src="https://apis.google.com/js/platform.js"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
-    <body onload="load(), NameCheck(), updatename()">
+    <body onload="NameCheck(), updatename()">
         <div id="wrapper">
             <div class="topnav">
                 <h1 id="Shanetitle">Shane</h1>
@@ -25,6 +25,7 @@
             </div>
         </div>
         <div class="settingmiddle">
+            <button classs="button" onclick="ChangeName()"><span>reset name</span></button>
         </div>
     </body>
 </html>
