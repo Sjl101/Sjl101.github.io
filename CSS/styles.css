@@ -170,6 +170,15 @@ video {
     padding: 30px;
 }
 
+.GoogleSearch{
+    background:#f1f1f1;
+    border:0px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+    width: 660px;
+    margin: 0px 0px 20px 0px;
+}
+
 .icon {
     width:100px;
     height:100px;
