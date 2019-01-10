@@ -304,6 +304,7 @@ video {
   }
 
 .youtubebutton {
+    text-align: left;
     margin: 0px auto 0px 0px;
     padding: 20px;
 }
