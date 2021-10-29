@@ -67,3 +67,4 @@ function ChangeName() {
     localStorage.setItem("username", username);
     name.innerHTML = "Welcome Back" + username;
 }
+
