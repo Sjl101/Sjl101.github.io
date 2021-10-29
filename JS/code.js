@@ -68,3 +68,10 @@ function ChangeName() {
     name.innerHTML = "Welcome Back" + username;
 }
 
+function hover(element) {
+  element.setAttribute('src', 'ASSETS/w-facebook-16.png');
+}
+
+function unhover(element) {
+  element.setAttribute('src', 'ASSETS/facebook-16.png');
+}
